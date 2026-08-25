@@ -8,10 +8,12 @@ int main()
     scanf("%d", &b);
     printf("Enter The C side: ");
     scanf("%d", &c);
-    if(a+b>c && b+c>a && c+a>b){
+    if (a + b > c && b + c > a && c + a > b)
+    {
         printf("Tringle is Valid");
     }
-    else{
+    else
+    {
         printf("Traingle is Invalid");
     }
     return 0;
